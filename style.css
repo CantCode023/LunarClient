@@ -1,3 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  height: 100vh;
+}
+
 body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8,5 +19,37 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  height: 100%;
+  background: #0f0f0f;
+}
+
+a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  background: #289a52;
+  color: white;
+  font-weight: 600;
+  font-size: 2.5rem;
+  height: 80px;
+  text-align: center;
+  width: 350px;
+  border-radius: 16px;
+  letter-spacing: 3.5px;
+  -webkit-box-shadow: 0 0 1.5em #289a52;
+          box-shadow: 0 0 1.5em #289a52;
+}
+
+@media (max-width: 273px) {
+  a {
+    padding: 15px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
